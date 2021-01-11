@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	int num1, num2;
+
+	cout << "Please input a number: ";
+	cin >> num1;
+	cout << "Please input another number: ";
+	cin >> num2;
+
+	while (true)
+	{
+		if (num1 > num2)
+			cout << "The largest number is: " << num1 << endl;
+		else
+			cout << "The largest number is: " << num2 << endl;
+
+		cout << "Please input a number: ";
+		cin >> num1;
+		cout << "Please input another number: ";
+		cin >> num2;
+	}
+}
